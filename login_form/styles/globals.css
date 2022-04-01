@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap");
+
+@media (max-width: 600px) {
+  .form-container {
+    display: grid;
+    max-width: 600px;
+    margin: 100px auto;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+
+  .form {
+    font-family: "Source Code Pro", monospace;
+    font-size: 20px;
+    padding: 20px;
+    border: black solid;
+    border-radius: 7px;
+  }
+
+  .input:nth-of-type(1) {
+    grid-column-start: 2/6;
+  }
+}
